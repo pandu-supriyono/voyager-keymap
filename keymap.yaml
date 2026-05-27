@@ -1,0 +1,267 @@
+layout: {qmk_keyboard: zsa/voyager, layout_name: LAYOUT}
+layers:
+  L0:
+  - {t: '-', h: L4}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: '=', h: L4}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - {t: ESCAPE, h: ALL}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: '''', h: ALL}
+  - LEFT SHIFT
+  - {t: Z, h: MOD_LCTL}
+  - {t: X, h: MOD_LALT}
+  - C
+  - V
+  - {t: B, h: MOD_LGUI}
+  - {t: N, h: MOD_RGUI}
+  - M
+  - ','
+  - {t: ., h: MOD_RALT}
+  - {t: /, h: MOD_RCTL}
+  - RIGHT SHIFT
+  - BSPC
+  - {t: DELETE, h: L1}
+  - {t: ENTER, h: L1}
+  - SPACE
+  L1:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  - F11
+  - F12
+  - {t: ▽, type: trans}
+  - Gui+Sft+4
+  - {t: ▽, type: trans}
+  - MEDIA PREV TRACK
+  - MEDIA PLAY PAUSE
+  - MEDIA NEXT TRACK
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DOWN
+  - BRIGHTNESS UP
+  - AUDIO VOL DOWN
+  - AUDIO VOL UP
+  - AUDIO MUTE
+  - {t: ▽, type: trans}
+  - Gui+`
+  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - CMD SHIFT TAB
+  - CMD TAB
+  - Gui+[
+  - Gui+]
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - PAGE UP
+  - PGDN
+  - HOME
+  - END
+  - Gui+Sft+[
+  - Gui+Sft+]
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  L2:
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DUAL FUNC 0
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: L3}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - {t: ▽, type: trans}
+  - Z
+  - X
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - B
+  - N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - SPACE
+  - LEFT CTRL
+  - {t: ▽, type: trans}
+  - BSPC
+  L3:
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  L4:
+  - {type: held}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - '`'
+  - '!'
+  - $
+  - '{'
+  - '}'
+  - '#'
+  - '7'
+  - '8'
+  - '9'
+  - '-'
+  - /
+  - F12
+  - {t: ▽, type: trans}
+  - ^
+  - '&'
+  - (
+  - )
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - +
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '@'
+  - '['
+  - ']'
+  - '%'
+  - '1'
+  - '2'
+  - '3'
+  - .
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
