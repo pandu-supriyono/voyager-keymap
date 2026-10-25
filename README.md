@@ -37,7 +37,7 @@ Plain QWERTY with no tap/hold keys on the left half other than Esc/⌘, so every
 | Home row left | Tap `Esc`, hold `⌘` (Esc is held 30ms so games register it) |
 | Top-right | Plain `Esc`, for when Esc needs holding |
 | Left thumbs | `Space` and `^` |
-| Inner right thumb | Tap `Enter`, hold L3 |
+| Inner right thumb | Tap `Enter`, hold L3 (Enter is held 30ms so games register it) |
 
 ## Gaming Fn Layer (L3)
 

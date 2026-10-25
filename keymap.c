@@ -9,6 +9,7 @@ bool is_cmd_tab_active = false;
 uint16_t cmd_tab_timer = 0;
 
 #define GAME_ESC LGUI_T(KC_ESCAPE)
+#define GAME_ENTER LT(3, KC_ENTER)
 
 enum custom_keycodes {
   RGB_SLD = ZSA_SAFE_RANGE,
@@ -177,8 +178,8 @@ bool rgb_matrix_indicators_user(void) {
 
 
 
-static uint32_t release_game_esc(uint32_t trigger_time, void *cb_arg) {
-  unregister_code(KC_ESCAPE);
+static uint32_t release_tapped_key(uint32_t trigger_time, void *cb_arg) {
+  unregister_code((uintptr_t)cb_arg);
   return 0;
 }
 
@@ -206,12 +207,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
 
     case GAME_ESC:
+    case GAME_ENTER:
       // A tap-hold tap is released instantly, which games polling once per frame can miss.
-      // Keep Esc held for 30ms so it always registers.
+      // Keep the tapped key held for 30ms so it always registers.
       if (record->tap.count > 0) {
         if (record->event.pressed) {
-          register_code(KC_ESCAPE);
-          defer_exec(30, release_game_esc, NULL);
+          uint8_t tap_keycode = QK_MOD_TAP_GET_TAP_KEYCODE(keycode);
+          register_code(tap_keycode);
+          defer_exec(30, release_tapped_key, (void *)(uintptr_t)tap_keycode);
         }
         return false;
       }
