@@ -108,87 +108,87 @@ layers:
   - {t: ▽, type: trans}
   L2:
   - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DUAL FUNC 0
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - ESCAPE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - \
+  - {t: ESCAPE, h: LGUI}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
   - J
   - K
   - L
   - ;
   - ''''
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - Z
   - X
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - C
+  - V
   - B
   - N
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - M
+  - ','
   - .
   - /
-  - {t: ▽, type: trans}
+  - RIGHT SHIFT
   - SPACE
   - LEFT CTRL
-  - {t: ▽, type: trans}
+  - {t: ENTER, h: L3}
   - BSPC
   L3:
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
+  - {t: ▽, type: trans}
   - F10
+  - F11
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - MEDIA PREV TRACK
+  - MEDIA PLAY PAUSE
+  - MEDIA NEXT TRACK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - {t: ▽, type: trans}
+  - BRIGHTNESS DOWN
+  - BRIGHTNESS UP
+  - AUDIO VOL DOWN
+  - AUDIO VOL UP
+  - AUDIO MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F4
+  - F5
+  - F6
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -198,20 +198,20 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - {t: ▽, type: trans}
+  - PAGE UP
+  - PGDN
+  - HOME
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
+  - DELETE
   L4:
   - {type: held}
   - F1
